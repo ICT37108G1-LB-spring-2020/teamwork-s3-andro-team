@@ -1,30 +1,27 @@
+# ShirtStore
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
-გააკეთეთ მაისურების გაყიდვის საიტის აპლიკაცია (single page application)
+## Development server
 
-აუცილებელია იყოს შემდეგი გვერდები:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-store/shirts - უნდა გამოდიოდეს მაისურები სიის სახით (პატარა სურათი + მოკლე დასახელება)
-კონკრეტული მაისურის დათვალიერების გვერდი
+## Code scaffolding
 
-/store/shirt/id
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-უნდა გამოდიოდეს კონკრეტული მაისურის შესახებ ინფორმაცია:
-დიდი სურათი, და მახასიათებლები ცხრილის სახით
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-/admin/shirts - მაისურების სია დამატების, წაშლის და რედაქტირების ღილაკებით
+## Running unit tests
 
-/admin/shirts/id/edit - კონკრეტული მაისურის რედაქტირებისთვის
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-/admin/shirts/new - ახალი მაისურის დამატების ფორმა
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-ყველა ajax request-ის შესრულებისას უნდა გამოჩნდეს spinner-ი
+## Further help
 
-აუცილებელია სერვისების გამოყენება
-
-
-ბექენდის მაგივრად გამოიყენეთ https://github.com/typicode/json-server
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
